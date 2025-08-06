@@ -1,0 +1,148 @@
+/* === Layout geral === */
+body {
+  font-family: sans-serif;
+  background-color: #193b4f;
+  padding: 3rem;
+  margin: 0;
+}
+
+.wrapper {
+  text-align: center;
+}
+img {
+    
+    margin-top: 20px;
+    max-width: 500px;
+    
+}
+
+.container {
+  max-width: 550px;
+  margin: auto;
+  background: rgb(249, 249, 249);
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* === Formulário === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input[type="date"],
+button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #193b4f;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* === Botão === */
+button {
+  background-color: #9ab1c1;
+  color: #193b4f;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007891;
+  color: white
+;
+}
+#logout-link {
+  position: fixed;
+  top: 10px;
+  right: 10px;    
+  z-index: 1000;
+
+  display: inline-block;
+  padding: 0.25rem 0.5rem;      /* menor que 0.75rem/1rem */
+  font-size: 0.875rem;         /* um pouco menor que 1rem */
+  border-radius: 6px;          /* mantém o raio */
+  box-sizing: border-box;
+
+  background-color: #9ab1c1;   /* mesma cor de fundo */
+  color: #193b4f;              /* mesma cor de texto */
+  text-decoration: none;       /* tira o underline */
+  border: none;                /* igual ao segundo bloco de botão */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#logout-link:hover {
+  background-color: #007891;   /* mesma cor de hover */
+  color: #fff;                 /* texto branco no hover */
+}
+
+/* === Mensagens === */
+#status {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* Erro: rosa claro com vermelho escuro */
+.error-message {
+  background-color: #ffe5e5;
+  border: 1px solid #cc0000;
+  color: #990000;
+}
+
+/* Sucesso (opcional) */
+
+
+.success-message {
+  background-color: #e6f9ea; /* Cor inicial, mas será sobrescrita pela animação */
+  border: 1px solid #228B22;
+  color: #228B22;
+
+  animation: flashColors 2s infinite alternate;
+}
+
+@keyframes flashColors {
+  0% {
+    background-color: #e6f9ea; /* Base */
+    border-color: #228B22;
+  }
+  50% {
+    background-color: #c3f2d0; /* Mais saturado */
+    border-color: #1d7a1d;
+  }
+  100% {
+    background-color: #b0ebc1; /* Ainda mais intenso */
+    border-color: #33aa33;
+  }
+}
+
+/* === Download === */
+.hidden {
+  display: none;
+}
+
+.noHover {
+  pointer-events: none;
+}
+
+#download-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#file-name {
+  font-weight: bold;
+  word-break: break-word;
+}

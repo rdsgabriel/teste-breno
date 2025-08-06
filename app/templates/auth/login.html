@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gerador de Relatórios</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="wrapper">
+    <img src="{{ url_for('static', filename='img/brmed-new-logo.png') }}" alt="Logo">
+  </div>
+
+
+  <div class="container">
+    <h1>Relatório de Atendimentos</h1>
+    <p>Para gerar relatórios, por favor faça login:</p>
+    <a href="{{ url_for('auth.login') }}">
+      <button type="button" id="login-button">Login com Google</button>
+    </a>
+
+    <div id="status" class="hidden"></div>
+
+  </div>
+
+
+  <script src="{{ url_for('static', filename='js/script_login.js') }}"></script>
+</body>
+</html>

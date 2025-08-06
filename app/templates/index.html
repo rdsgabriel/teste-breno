@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gerador de Relatórios</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  
+    <a href="{{ url_for('auth.logout') }}" id="logout-link">Sair</a>
+
+  <div class="wrapper">
+    <img src="{{ url_for('static', filename='img/brmed-new-logo.png') }}" alt="Logo">
+  </div>
+<nav>
+
+</nav>
+  <div class="container">
+    <p>Selecione o período para gerar o relatório de atendimentos:</p>
+
+    <form id="report-form">
+      <label for="start-date">Data Inicial:</label>
+      <input type="date" id="start-date" name="inicio" required />
+
+      <label for="end-date">Data Final:</label>
+      <input type="date" id="end-date" name="fim" required />
+
+      <button type="submit" id="submit-button">Gerar Relatório</button>
+    </form>
+
+    <div id="status" class="hidden"></div>
+
+    <div id="download-section" class="hidden">
+      <p>Arquivo pronto: <span id="file-name"></span></p>
+      <button id="download-button">Baixar</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
