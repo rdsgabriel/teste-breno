@@ -33,7 +33,7 @@ jobs:
           pyinstaller desktop_app.py ^
             --noconfirm ^
             --onefile ^
-            --windowed ^
+            --console ^
             --add-data "app;app" ^
             --add-data ".env;." ^
             --add-data "config.ini;." ^
