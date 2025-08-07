@@ -1,52 +1,46 @@
 name: Build Windows EXE
 
 on:
-  # gera a cada push na branch main e também manualmente pelo botão “Run workflow”
   push:
-    branches: [main]
-  workflow_dispatch:
+    branches: [main]      # execute a cada push na branch main
+  workflow_dispatch:      # também manualmente pelo botão "Run workflow"
 
 jobs:
   build-win:
     runs-on: windows-latest
 
     steps:
-      # 1 ▸ clona o repositório
       - uses: actions/checkout@v4
 
-      # 2 ▸ instala Python 3.12
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      # 3 ▸ instala dependências
-      - name: Install requirements
+      - name: Install Python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt pyinstaller python-dotenv
 
-      # 4 ▸ cria .env e config.ini com conteúdo dos Secrets
-      #    (adicione ENV_CONTENTS e CONFIG_INI em Settings ➜ Secrets and variables ➜ Actions)
       - name: Generate .env and config.ini
-        shell: bash
+        shell: bash          
         run: |
           echo "${{ secrets.ENV_CONTENTS }}" > .env
           echo "${{ secrets.CONFIG_INI }}"   > config.ini
 
-      # 5 ▸ compila o executável
       - name: Build EXE with PyInstaller
-        shell: bash
+        shell: cmd
         run: |
           pyinstaller desktop_app.py ^
-            --noconfirm --onefile --windowed ^
+            --noconfirm ^
+            --onefile ^
+            --windowed ^
             --add-data "app;app" ^
             --add-data ".env;." ^
             --add-data "config.ini;." ^
-            --icon "app/static/img/brmed-new-logo.ico"
+            --icon "app\\static\\img\\brmed-new-logo.ico"
 
-      # 6 ▸ publica o artefato
       - name: Upload executable
         uses: actions/upload-artifact@v4
         with:
-          name: desktop_app.exe            # rótulo que aparece na aba “Artifacts”
-          path: dist/desktop_app.exe       # arquivo real a ser baixado
+          name: desktop_app.exe         
+          path: dist/desktop_app.exe     
