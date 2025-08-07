@@ -37,7 +37,6 @@ jobs:
             --add-data "app;app" ^
             --add-data ".env;." ^
             --add-data "config.ini;." ^
-            --icon "app\\static\\img\\brmed-new-logo.ico"
 
       - name: Upload executable
         uses: actions/upload-artifact@v4
