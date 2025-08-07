@@ -9,8 +9,8 @@ BRMED_CLINIC=[1,5,6,9,10,11,14,15,16,17,18,19,20,22]
 
 def generate_reports(range_date):
 
-  response_medical_care = bucket_calls_sync(range_date, max_workers=5)
-  response_medical_care_time = bucket_calls_sync_medical(range_date,BRMED_CLINIC, max_workers=5)
+  response_medical_care = bucket_calls_sync(range_date)
+  response_medical_care_time = bucket_calls_sync_medical(range_date,BRMED_CLINIC)
   
   report,preco_df, pacientes_df, exames_df,duracao_media_exames_df,profissionais_necessarios_df,alocacao_df,ocupacao_df = tables_dinamic(response_medical_care,response_medical_care_time)
 

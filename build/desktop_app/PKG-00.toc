@@ -1,0 +1,3680 @@
+('/home/brmed/Área de '
+ 'trabalho/rpa-relatorio-atendimentos-main/build/desktop_app/desktop_app.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/build/desktop_app/PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/build/desktop_app/localpycs/struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/build/desktop_app/localpycs/pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/build/desktop_app/localpycs/pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/build/desktop_app/localpycs/pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_cryptography_openssl',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/_pyinstaller_hooks_contrib/rthooks/pyi_rth_cryptography_openssl.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/PyInstaller/hooks/rthooks/pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('desktop_app',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/desktop_app.py',
+   'PYSOURCE'),
+  ('libpython3.12.so', '/lib/x86_64-linux-gnu/libpython3.12.so', 'BINARY'),
+  ('lib-dynload/_contextvars.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_contextvars.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_decimal.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_decimal.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_hashlib.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_hashlib.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_lzma.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_lzma.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_bz2.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_bz2.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/resource.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/resource.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_ssl.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_ssl.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_queue.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_queue.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/mmap.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/mmap.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_posixshmem.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_posixshmem.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_ctypes.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_ctypes.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_multiprocessing.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_multiprocessing.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/termios.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/termios.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_asyncio.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_asyncio.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_json.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_json.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/readline.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/readline.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_multibytecodec.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_multibytecodec.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_jp.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_codecs_jp.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_kr.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_codecs_kr.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_iso2022.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_codecs_iso2022.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_cn.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_codecs_cn.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_tw.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_codecs_tw.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_hk.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_codecs_hk.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/writers.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/writers.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/linalg/_umath_linalg.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/linalg/_umath_linalg.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('markupsafe/_speedups.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/markupsafe/_speedups.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_sqlite3.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_sqlite3.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/_core/_multiarray_tests.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/_core/_multiarray_tests.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('charset_normalizer/md__mypyc.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/charset_normalizer/md__mypyc.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('charset_normalizer/md.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/charset_normalizer/md.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/mtrand.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/mtrand.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/bit_generator.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/bit_generator.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/_sfc64.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/_sfc64.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/_philox.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/_philox.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/_pcg64.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/_pcg64.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/_mt19937.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/_mt19937.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/_generator.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/_generator.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/_common.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/_common.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/random/_bounded_integers.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/random/_bounded_integers.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('numpy/fft/_pocketfft_umath.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy/fft/_pocketfft_umath.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/window/indexers.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/window/indexers.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/window/aggregations.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/window/aggregations.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/vectorized.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/vectorized.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/tzconversion.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/tzconversion.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/timezones.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/timezones.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/timestamps.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/timestamps.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/timedeltas.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/timedeltas.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/strptime.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/strptime.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/period.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/period.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/parsing.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/parsing.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/offsets.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/offsets.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/np_datetime.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/np_datetime.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/nattype.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/nattype.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/fields.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/fields.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/dtypes.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/dtypes.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/conversion.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/conversion.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/ccalendar.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/ccalendar.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslibs/base.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslibs/base.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/tslib.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/tslib.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/testing.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/testing.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/sparse.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/sparse.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/sas.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/sas.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/reshape.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/reshape.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/properties.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/properties.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/parsers.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/parsers.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/pandas_parser.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/pandas_parser.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/pandas_datetime.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/pandas_datetime.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/ops_dispatch.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/ops_dispatch.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/ops.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/ops.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/missing.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/missing.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/lib.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/lib.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/json.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/json.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/join.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/join.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/interval.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/interval.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/internals.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/internals.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/indexing.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/indexing.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/index.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/index.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/hashtable.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/hashtable.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/hashing.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/hashing.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/groupby.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/groupby.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/byteswap.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/byteswap.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/arrays.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/arrays.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('pandas/_libs/algos.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/_libs/algos.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_zoneinfo.cpython-312-x86_64-linux-gnu.so',
+   '/usr/lib/python3.12/lib-dynload/_zoneinfo.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('orjson/orjson.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/orjson/orjson.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('cryptography/hazmat/bindings/_rust.abi3.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so',
+   'EXTENSION'),
+  ('_cffi_backend.cpython-312-x86_64-linux-gnu.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/_cffi_backend.cpython-312-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('libz.so.1', '/lib/x86_64-linux-gnu/libz.so.1', 'BINARY'),
+  ('libexpat.so.1', '/lib/x86_64-linux-gnu/libexpat.so.1', 'BINARY'),
+  ('libcrypto.so.3', '/lib/x86_64-linux-gnu/libcrypto.so.3', 'BINARY'),
+  ('liblzma.so.5', '/lib/x86_64-linux-gnu/liblzma.so.5', 'BINARY'),
+  ('libbz2.so.1.0', '/lib/x86_64-linux-gnu/libbz2.so.1.0', 'BINARY'),
+  ('libssl.so.3', '/lib/x86_64-linux-gnu/libssl.so.3', 'BINARY'),
+  ('libffi.so.8', '/lib/x86_64-linux-gnu/libffi.so.8', 'BINARY'),
+  ('libreadline.so.8', '/lib/x86_64-linux-gnu/libreadline.so.8', 'BINARY'),
+  ('libtinfo.so.6', '/lib/x86_64-linux-gnu/libtinfo.so.6', 'BINARY'),
+  ('libstdc++.so.6', '/lib/x86_64-linux-gnu/libstdc++.so.6', 'BINARY'),
+  ('numpy.libs/libscipy_openblas64_-56d6093b.so',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-56d6093b.so',
+   'BINARY'),
+  ('libgcc_s.so.1', '/lib/x86_64-linux-gnu/libgcc_s.so.1', 'BINARY'),
+  ('numpy.libs/libquadmath-96973f99-934c22de.so.0.0.0',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy.libs/libquadmath-96973f99-934c22de.so.0.0.0',
+   'BINARY'),
+  ('numpy.libs/libgfortran-040039e1-0352e75f.so.5.0.0',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy.libs/libgfortran-040039e1-0352e75f.so.5.0.0',
+   'BINARY'),
+  ('libsqlite3.so.0', '/lib/x86_64-linux-gnu/libsqlite3.so.0', 'BINARY'),
+  ('.env',
+   '/home/brmed/Área de trabalho/rpa-relatorio-atendimentos-main/.env',
+   'DATA'),
+  ('app/__init__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/__init__.py',
+   'DATA'),
+  ('app/__pycache__/__init__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/__pycache__/__init__.cpython-312.pyc',
+   'DATA'),
+  ('app/__pycache__/auth.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/__pycache__/auth.cpython-312.pyc',
+   'DATA'),
+  ('app/auth.py',
+   '/home/brmed/Área de trabalho/rpa-relatorio-atendimentos-main/app/auth.py',
+   'DATA'),
+  ('app/data/position_job.json',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/data/position_job.json',
+   'DATA'),
+  ('app/data/workload_per_exam.json',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/data/workload_per_exam.json',
+   'DATA'),
+  ('app/routes/__pycache__/views.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/routes/__pycache__/views.cpython-312.pyc',
+   'DATA'),
+  ('app/routes/views.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/routes/views.py',
+   'DATA'),
+  ('app/services/__pycache__/api_export_medical_care.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/services/__pycache__/api_export_medical_care.cpython-312.pyc',
+   'DATA'),
+  ('app/services/__pycache__/api_medical_service_financial_report.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/services/__pycache__/api_medical_service_financial_report.cpython-312.pyc',
+   'DATA'),
+  ('app/services/__pycache__/data_processing.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/services/__pycache__/data_processing.cpython-312.pyc',
+   'DATA'),
+  ('app/services/__pycache__/service.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/services/__pycache__/service.cpython-312.pyc',
+   'DATA'),
+  ('app/services/api_export_medical_care.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/services/api_export_medical_care.py',
+   'DATA'),
+  ('app/services/api_medical_service_financial_report.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/services/api_medical_service_financial_report.py',
+   'DATA'),
+  ('app/services/data_processing.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/services/data_processing.py',
+   'DATA'),
+  ('app/services/service.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/services/service.py',
+   'DATA'),
+  ('app/static/css/style.css',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/static/css/style.css',
+   'DATA'),
+  ('app/static/img/brmed-new-logo.png',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/static/img/brmed-new-logo.png',
+   'DATA'),
+  ('app/static/js/script.js',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/static/js/script.js',
+   'DATA'),
+  ('app/static/js/script_login.js',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/static/js/script_login.js',
+   'DATA'),
+  ('app/templates/auth/login.html',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/templates/auth/login.html',
+   'DATA'),
+  ('app/templates/index.html',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/templates/index.html',
+   'DATA'),
+  ('app/utils/__pycache__/utils.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/utils/__pycache__/utils.cpython-312.pyc',
+   'DATA'),
+  ('app/utils/utils.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/app/utils/utils.py',
+   'DATA'),
+  ('flask/__init__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__init__.py',
+   'DATA'),
+  ('flask/__main__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__main__.py',
+   'DATA'),
+  ('flask/__pycache__/__init__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/__init__.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/__main__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/__main__.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/app.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/app.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/blueprints.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/blueprints.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/cli.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/cli.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/config.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/config.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/ctx.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/ctx.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/debughelpers.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/debughelpers.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/globals.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/globals.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/helpers.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/helpers.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/logging.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/logging.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/sessions.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/sessions.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/signals.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/signals.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/templating.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/templating.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/testing.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/testing.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/typing.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/typing.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/views.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/views.cpython-312.pyc',
+   'DATA'),
+  ('flask/__pycache__/wrappers.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/__pycache__/wrappers.cpython-312.pyc',
+   'DATA'),
+  ('flask/app.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/app.py',
+   'DATA'),
+  ('flask/blueprints.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/blueprints.py',
+   'DATA'),
+  ('flask/cli.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/cli.py',
+   'DATA'),
+  ('flask/config.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/config.py',
+   'DATA'),
+  ('flask/ctx.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/ctx.py',
+   'DATA'),
+  ('flask/debughelpers.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/debughelpers.py',
+   'DATA'),
+  ('flask/globals.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/globals.py',
+   'DATA'),
+  ('flask/helpers.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/helpers.py',
+   'DATA'),
+  ('flask/json/__init__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/json/__init__.py',
+   'DATA'),
+  ('flask/json/__pycache__/__init__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/json/__pycache__/__init__.cpython-312.pyc',
+   'DATA'),
+  ('flask/json/__pycache__/provider.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/json/__pycache__/provider.cpython-312.pyc',
+   'DATA'),
+  ('flask/json/__pycache__/tag.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/json/__pycache__/tag.cpython-312.pyc',
+   'DATA'),
+  ('flask/json/provider.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/json/provider.py',
+   'DATA'),
+  ('flask/json/tag.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/json/tag.py',
+   'DATA'),
+  ('flask/logging.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/logging.py',
+   'DATA'),
+  ('flask/py.typed',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/py.typed',
+   'DATA'),
+  ('flask/sansio/README.md',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/sansio/README.md',
+   'DATA'),
+  ('flask/sansio/__pycache__/app.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/sansio/__pycache__/app.cpython-312.pyc',
+   'DATA'),
+  ('flask/sansio/__pycache__/blueprints.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/sansio/__pycache__/blueprints.cpython-312.pyc',
+   'DATA'),
+  ('flask/sansio/__pycache__/scaffold.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/sansio/__pycache__/scaffold.cpython-312.pyc',
+   'DATA'),
+  ('flask/sansio/app.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/sansio/app.py',
+   'DATA'),
+  ('flask/sansio/blueprints.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/sansio/blueprints.py',
+   'DATA'),
+  ('flask/sansio/scaffold.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/sansio/scaffold.py',
+   'DATA'),
+  ('flask/sessions.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/sessions.py',
+   'DATA'),
+  ('flask/signals.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/signals.py',
+   'DATA'),
+  ('flask/templating.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/templating.py',
+   'DATA'),
+  ('flask/testing.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/testing.py',
+   'DATA'),
+  ('flask/typing.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/typing.py',
+   'DATA'),
+  ('flask/views.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/views.py',
+   'DATA'),
+  ('flask/wrappers.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask/wrappers.py',
+   'DATA'),
+  ('gunicorn/__init__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__init__.py',
+   'DATA'),
+  ('gunicorn/__main__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__main__.py',
+   'DATA'),
+  ('gunicorn/__pycache__/__init__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/__init__.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/__main__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/__main__.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/arbiter.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/arbiter.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/config.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/config.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/debug.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/debug.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/errors.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/errors.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/glogging.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/glogging.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/pidfile.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/pidfile.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/reloader.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/reloader.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/sock.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/sock.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/systemd.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/systemd.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/__pycache__/util.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/__pycache__/util.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/app/__init__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/app/__init__.py',
+   'DATA'),
+  ('gunicorn/app/__pycache__/__init__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/app/__pycache__/__init__.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/app/__pycache__/base.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/app/__pycache__/base.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/app/__pycache__/pasterapp.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/app/__pycache__/pasterapp.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/app/__pycache__/wsgiapp.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/app/__pycache__/wsgiapp.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/app/base.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/app/base.py',
+   'DATA'),
+  ('gunicorn/app/pasterapp.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/app/pasterapp.py',
+   'DATA'),
+  ('gunicorn/app/wsgiapp.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py',
+   'DATA'),
+  ('gunicorn/arbiter.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/arbiter.py',
+   'DATA'),
+  ('gunicorn/config.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/config.py',
+   'DATA'),
+  ('gunicorn/debug.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/debug.py',
+   'DATA'),
+  ('gunicorn/errors.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/errors.py',
+   'DATA'),
+  ('gunicorn/glogging.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/glogging.py',
+   'DATA'),
+  ('gunicorn/http/__init__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/__init__.py',
+   'DATA'),
+  ('gunicorn/http/__pycache__/__init__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/__pycache__/__init__.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/http/__pycache__/body.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/__pycache__/body.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/http/__pycache__/errors.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/__pycache__/errors.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/http/__pycache__/message.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/__pycache__/message.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/http/__pycache__/parser.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/__pycache__/parser.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/http/__pycache__/unreader.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/__pycache__/unreader.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/http/__pycache__/wsgi.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/__pycache__/wsgi.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/http/body.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/body.py',
+   'DATA'),
+  ('gunicorn/http/errors.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/errors.py',
+   'DATA'),
+  ('gunicorn/http/message.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/message.py',
+   'DATA'),
+  ('gunicorn/http/parser.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/parser.py',
+   'DATA'),
+  ('gunicorn/http/unreader.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/unreader.py',
+   'DATA'),
+  ('gunicorn/http/wsgi.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/http/wsgi.py',
+   'DATA'),
+  ('gunicorn/instrument/__init__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/instrument/__init__.py',
+   'DATA'),
+  ('gunicorn/instrument/__pycache__/__init__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/instrument/__pycache__/__init__.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/instrument/__pycache__/statsd.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/instrument/__pycache__/statsd.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/instrument/statsd.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/instrument/statsd.py',
+   'DATA'),
+  ('gunicorn/pidfile.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/pidfile.py',
+   'DATA'),
+  ('gunicorn/reloader.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/reloader.py',
+   'DATA'),
+  ('gunicorn/sock.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/sock.py',
+   'DATA'),
+  ('gunicorn/systemd.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/systemd.py',
+   'DATA'),
+  ('gunicorn/util.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/util.py',
+   'DATA'),
+  ('gunicorn/workers/__init__.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__init__.py',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/__init__.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/__init__.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/base.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/base.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/base_async.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/base_async.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/geventlet.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/geventlet.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/ggevent.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/ggevent.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/gthread.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/gthread.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/gtornado.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/gtornado.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/sync.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/sync.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/__pycache__/workertmp.cpython-312.pyc',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/__pycache__/workertmp.cpython-312.pyc',
+   'DATA'),
+  ('gunicorn/workers/base.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/base.py',
+   'DATA'),
+  ('gunicorn/workers/base_async.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/base_async.py',
+   'DATA'),
+  ('gunicorn/workers/geventlet.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/geventlet.py',
+   'DATA'),
+  ('gunicorn/workers/ggevent.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/ggevent.py',
+   'DATA'),
+  ('gunicorn/workers/gthread.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/gthread.py',
+   'DATA'),
+  ('gunicorn/workers/gtornado.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/gtornado.py',
+   'DATA'),
+  ('gunicorn/workers/sync.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/sync.py',
+   'DATA'),
+  ('gunicorn/workers/workertmp.py',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/gunicorn/workers/workertmp.py',
+   'DATA'),
+  ('dateutil/zoneinfo/dateutil-zoneinfo.tar.gz',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz',
+   'DATA'),
+  ('pandas/io/formats/templates/latex.tpl',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/io/formats/templates/latex.tpl',
+   'DATA'),
+  ('pandas/io/formats/templates/string.tpl',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/io/formats/templates/string.tpl',
+   'DATA'),
+  ('pandas/io/formats/templates/html_table.tpl',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/io/formats/templates/html_table.tpl',
+   'DATA'),
+  ('pandas/io/formats/templates/html_style.tpl',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/io/formats/templates/html_style.tpl',
+   'DATA'),
+  ('pandas/io/formats/templates/html.tpl',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/io/formats/templates/html.tpl',
+   'DATA'),
+  ('pandas/io/formats/templates/latex_longtable.tpl',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/io/formats/templates/latex_longtable.tpl',
+   'DATA'),
+  ('pandas/io/formats/templates/latex_table.tpl',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pandas/io/formats/templates/latex_table.tpl',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Tarawa',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Tarawa',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Ponape',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Ponape',
+   'DATA'),
+  ('pytz/zoneinfo/America/Caracas',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Caracas',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Luanda',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Luanda',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+11',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+11',
+   'DATA'),
+  ('pytz/zoneinfo/Libya',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Libya',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Oslo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Oslo',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Pohnpei',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Pohnpei',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Perth',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Perth',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Jerusalem',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Jerusalem',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Budapest',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Budapest',
+   'DATA'),
+  ('pytz/zoneinfo/America/Monterrey',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Monterrey',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indiana/Vevay',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indiana/Vevay',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Zurich',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Zurich',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Jan_Mayen',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Jan_Mayen',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Chisinau',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Chisinau',
+   'DATA'),
+  ('pytz/zoneinfo/America/Pangnirtung',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Pangnirtung',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Azores',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Azores',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Aqtau',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Aqtau',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Davis',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Davis',
+   'DATA'),
+  ('pytz/zoneinfo/America/Edmonton',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Edmonton',
+   'DATA'),
+  ('pytz/zoneinfo/Cuba',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Cuba',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Kosrae',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Kosrae',
+   'DATA'),
+  ('pytz/zoneinfo/America/Virgin',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Virgin',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Warsaw',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Warsaw',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Rothera',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Rothera',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Irkutsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Irkutsk',
+   'DATA'),
+  ('pytz/zoneinfo/America/North_Dakota/Center',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/North_Dakota/Center',
+   'DATA'),
+  ('pytz/zoneinfo/America/Hermosillo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Hermosillo',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Dakar',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Dakar',
+   'DATA'),
+  ('pytz/zoneinfo/America/Sao_Paulo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Sao_Paulo',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Paris',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Paris',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Easter',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Easter',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Comoro',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Comoro',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Bissau',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Bissau',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Enderbury',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Enderbury',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Monrovia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Monrovia',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Nouakchott',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Nouakchott',
+   'DATA'),
+  ('pytz/zoneinfo/Jamaica',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Jamaica',
+   'DATA'),
+  ('pytz/zoneinfo/Mexico/BajaNorte',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Mexico/BajaNorte',
+   'DATA'),
+  ('pytz/zoneinfo/America/Moncton',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Moncton',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Dar_es_Salaam',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Dar_es_Salaam',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Podgorica',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Podgorica',
+   'DATA'),
+  ('pytz/zoneinfo/Canada/Eastern',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/Eastern',
+   'DATA'),
+  ('pytz/zoneinfo/America/Detroit',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Detroit',
+   'DATA'),
+  ('pytz/zoneinfo/America/Dominica',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Dominica',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Kanton',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Kanton',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Khartoum',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Khartoum',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-0',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-0',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Monaco',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Monaco',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Qatar',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Qatar',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Yap',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Yap',
+   'DATA'),
+  ('pytz/zoneinfo/Brazil/Acre',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Brazil/Acre',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Saigon',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Saigon',
+   'DATA'),
+  ('pytz/zoneinfo/America/Iqaluit',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Iqaluit',
+   'DATA'),
+  ('pytz/zoneinfo/America/Montevideo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Montevideo',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Niue',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Niue',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Lubumbashi',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Lubumbashi',
+   'DATA'),
+  ('pytz/zoneinfo/Chile/EasterIsland',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Chile/EasterIsland',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Porto-Novo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Porto-Novo',
+   'DATA'),
+  ('pytz/zoneinfo/America/Aruba',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Aruba',
+   'DATA'),
+  ('pytz/zoneinfo/Singapore',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Singapore',
+   'DATA'),
+  ('pytz/zoneinfo/America/Menominee',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Menominee',
+   'DATA'),
+  ('pytz/zoneinfo/America/Nome',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Nome',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+0',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+0',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Palau',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Palau',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Ceuta',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Ceuta',
+   'DATA'),
+  ('pytz/zoneinfo/Brazil/East',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Brazil/East',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Dubai',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Dubai',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Yerevan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Yerevan',
+   'DATA'),
+  ('pytz/zoneinfo/America/Rainy_River',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Rainy_River',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Conakry',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Conakry',
+   'DATA'),
+  ('pytz/zoneinfo/Canada/Newfoundland',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/Newfoundland',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Buenos_Aires',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Buenos_Aires',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+3',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+3',
+   'DATA'),
+  ('pytz/zoneinfo/America/Winnipeg',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Winnipeg',
+   'DATA'),
+  ('pytz/zoneinfo/America/Fortaleza',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Fortaleza',
+   'DATA'),
+  ('pytz/zoneinfo/America/Guatemala',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Guatemala',
+   'DATA'),
+  ('pytz/zoneinfo/America/Chihuahua',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Chihuahua',
+   'DATA'),
+  ('pytz/zoneinfo/America/Tortola',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Tortola',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Jujuy',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Jujuy',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Port_Moresby',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Port_Moresby',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Istanbul',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Istanbul',
+   'DATA'),
+  ('pytz/zoneinfo/America/Kralendijk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Kralendijk',
+   'DATA'),
+  ('pytz/zoneinfo/Chile/Continental',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Chile/Continental',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Asmera',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Asmera',
+   'DATA'),
+  ('pytz/zoneinfo/America/Sitka',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Sitka',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Choibalsan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Choibalsan',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Kwajalein',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Kwajalein',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Tashkent',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Tashkent',
+   'DATA'),
+  ('pytz/zoneinfo/Portugal',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Portugal',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Nicosia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Nicosia',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Casablanca',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Casablanca',
+   'DATA'),
+  ('pytz/zoneinfo/Mexico/BajaSur',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Mexico/BajaSur',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Volgograd',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Volgograd',
+   'DATA'),
+  ('pytz/zoneinfo/America/Montreal',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Montreal',
+   'DATA'),
+  ('pytz/zoneinfo/America/Danmarkshavn',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Danmarkshavn',
+   'DATA'),
+  ('pytz/zoneinfo/America/St_Thomas',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/St_Thomas',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Tongatapu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Tongatapu',
+   'DATA'),
+  ('pytz/zoneinfo/America/Catamarca',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Catamarca',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Darwin',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Darwin',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+9',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+9',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Bamako',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Bamako',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Dublin',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Dublin',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Timbuktu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Timbuktu',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Tiraspol',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Tiraspol',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Kaliningrad',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Kaliningrad',
+   'DATA'),
+  ('pytz/zoneinfo/America/Adak',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Adak',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Majuro',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Majuro',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Bucharest',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Bucharest',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/St_Helena',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/St_Helena',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Beirut',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Beirut',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Abidjan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Abidjan',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Jersey',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Jersey',
+   'DATA'),
+  ('pytz/zoneinfo/America/Bogota',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Bogota',
+   'DATA'),
+  ('pytz/zoneinfo/Canada/Atlantic',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/Atlantic',
+   'DATA'),
+  ('pytz/zoneinfo/America/Porto_Velho',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Porto_Velho',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Ushuaia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Ushuaia',
+   'DATA'),
+  ('pytz/zoneinfo/America/Tegucigalpa',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Tegucigalpa',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Harare',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Harare',
+   'DATA'),
+  ('pytz/zoneinfo/America/Juneau',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Juneau',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Queensland',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Queensland',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Apia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Apia',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Atyrau',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Atyrau',
+   'DATA'),
+  ('pytz/zoneinfo/WET',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/WET',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Juba',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Juba',
+   'DATA'),
+  ('pytz/zoneinfo/America/Scoresbysund',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Scoresbysund',
+   'DATA'),
+  ('pytz/zoneinfo/America/Santiago',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Santiago',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Athens',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Athens',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-1',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-1',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Pontianak',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Pontianak',
+   'DATA'),
+  ('pytz/zoneinfo/ROK',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/ROK',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/LHI',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/LHI',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Baku',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Baku',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Pago_Pago',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Pago_Pago',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Maputo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Maputo',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Vladivostok',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Vladivostok',
+   'DATA'),
+  ('pytz/zoneinfo/America/Shiprock',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Shiprock',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Vaduz',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Vaduz',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/ACT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/ACT',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Kinshasa',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Kinshasa',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indiana/Petersburg',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indiana/Petersburg',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Isle_of_Man',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Isle_of_Man',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+6',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+6',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Hebron',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Hebron',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Colombo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Colombo',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-13',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-13',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indiana/Tell_City',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indiana/Tell_City',
+   'DATA'),
+  ('pytz/zoneinfo/Canada/Saskatchewan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/Saskatchewan',
+   'DATA'),
+  ('pytz/zoneinfo/US/Arizona',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Arizona',
+   'DATA'),
+  ('pytz/zoneinfo/America/Lima',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Lima',
+   'DATA'),
+  ('pytz/zoneinfo/America/Kentucky/Monticello',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Kentucky/Monticello',
+   'DATA'),
+  ('pytz/zoneinfo/America/Thule',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Thule',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/DumontDUrville',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/DumontDUrville',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Tripoli',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Tripoli',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indiana/Vincennes',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indiana/Vincennes',
+   'DATA'),
+  ('pytz/zoneinfo/America/Mendoza',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Mendoza',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Malabo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Malabo',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Nicosia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Nicosia',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Accra',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Accra',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Djibouti',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Djibouti',
+   'DATA'),
+  ('pytz/zoneinfo/America/Fort_Wayne',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Fort_Wayne',
+   'DATA'),
+  ('pytz/zoneinfo/America/Coyhaique',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Coyhaique',
+   'DATA'),
+  ('pytz/zoneinfo/NZ',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/NZ',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Tbilisi',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Tbilisi',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-5',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-5',
+   'DATA'),
+  ('pytz/zoneinfo/zonenow.tab',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/zonenow.tab',
+   'DATA'),
+  ('pytz/zoneinfo/America/Yakutat',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Yakutat',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Simferopol',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Simferopol',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Tokyo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Tokyo',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Mayotte',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Mayotte',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Pitcairn',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Pitcairn',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Novokuznetsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Novokuznetsk',
+   'DATA'),
+  ('pytz/zoneinfo/Poland',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Poland',
+   'DATA'),
+  ('pytz/zoneinfo/America/Ciudad_Juarez',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Ciudad_Juarez',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indiana/Winamac',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indiana/Winamac',
+   'DATA'),
+  ('pytz/zoneinfo/America/Yellowknife',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Yellowknife',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Rangoon',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Rangoon',
+   'DATA'),
+  ('pytz/zoneinfo/America/Anchorage',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Anchorage',
+   'DATA'),
+  ('pytz/zoneinfo/America/Lower_Princes',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Lower_Princes',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/La_Rioja',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/La_Rioja',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Wallis',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Wallis',
+   'DATA'),
+  ('pytz/zoneinfo/US/Samoa',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Samoa',
+   'DATA'),
+  ('pytz/zoneinfo/America/Belem',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Belem',
+   'DATA'),
+  ('pytz/zoneinfo/zone1970.tab',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/zone1970.tab',
+   'DATA'),
+  ('pytz/zoneinfo/America/Resolute',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Resolute',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Kabul',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Kabul',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Yekaterinburg',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Yekaterinburg',
+   'DATA'),
+  ('pytz/zoneinfo/America/Anguilla',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Anguilla',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Hobart',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Hobart',
+   'DATA'),
+  ('pytz/zoneinfo/America/Araguaina',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Araguaina',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indiana/Marengo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indiana/Marengo',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Syowa',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Syowa',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-11',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-11',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Singapore',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Singapore',
+   'DATA'),
+  ('pytz/zoneinfo/America/Mazatlan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Mazatlan',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Riyadh',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Riyadh',
+   'DATA'),
+  ('pytz/zoneinfo/zone.tab',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/zone.tab',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Dhaka',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Dhaka',
+   'DATA'),
+  ('pytz/zoneinfo/America/Noronha',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Noronha',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Jakarta',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Jakarta',
+   'DATA'),
+  ('pytz/zoneinfo/US/East-Indiana',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/East-Indiana',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Phnom_Penh',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Phnom_Penh',
+   'DATA'),
+  ('pytz/zoneinfo/Canada/Pacific',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/Pacific',
+   'DATA'),
+  ('pytz/zoneinfo/Universal',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Universal',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Barnaul',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Barnaul',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Freetown',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Freetown',
+   'DATA'),
+  ('pytz/zoneinfo/America/Thunder_Bay',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Thunder_Bay',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Calcutta',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Calcutta',
+   'DATA'),
+  ('pytz/zoneinfo/MST',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/MST',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Cocos',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Cocos',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Fiji',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Fiji',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Taipei',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Taipei',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/UCT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/UCT',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Guadalcanal',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Guadalcanal',
+   'DATA'),
+  ('pytz/zoneinfo/America/Rosario',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Rosario',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Helsinki',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Helsinki',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Guam',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Guam',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+1',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+1',
+   'DATA'),
+  ('pytz/zoneinfo/W-SU',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/W-SU',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/South_Georgia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/South_Georgia',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Vientiane',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Vientiane',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Chuuk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Chuuk',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Novosibirsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Novosibirsk',
+   'DATA'),
+  ('pytz/zoneinfo/America/El_Salvador',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/El_Salvador',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Saratov',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Saratov',
+   'DATA'),
+  ('pytz/zoneinfo/America/Manaus',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Manaus',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Almaty',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Almaty',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Niamey',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Niamey',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Harbin',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Harbin',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Macao',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Macao',
+   'DATA'),
+  ('pytz/zoneinfo/ROC',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/ROC',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/McMurdo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/McMurdo',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Kamchatka',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Kamchatka',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Busingen',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Busingen',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Ujung_Pandang',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Ujung_Pandang',
+   'DATA'),
+  ('pytz/zoneinfo/America/Blanc-Sablon',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Blanc-Sablon',
+   'DATA'),
+  ('pytz/zoneinfo/Iceland',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Iceland',
+   'DATA'),
+  ('pytz/zoneinfo/America/Martinique',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Martinique',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Auckland',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Auckland',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Yangon',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Yangon',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Lord_Howe',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Lord_Howe',
+   'DATA'),
+  ('pytz/zoneinfo/Canada/Central',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/Central',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Andorra',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Andorra',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/El_Aaiun',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/El_Aaiun',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Gibraltar',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Gibraltar',
+   'DATA'),
+  ('pytz/zoneinfo/America/Kentucky/Louisville',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Kentucky/Louisville',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Ho_Chi_Minh',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Ho_Chi_Minh',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/Greenwich',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/Greenwich',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Maldives',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Maldives',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Tallinn',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Tallinn',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Lisbon',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Lisbon',
+   'DATA'),
+  ('pytz/zoneinfo/America/Rio_Branco',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Rio_Branco',
+   'DATA'),
+  ('pytz/zoneinfo/Egypt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Egypt',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Katmandu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Katmandu',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Karachi',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Karachi',
+   'DATA'),
+  ('pytz/zoneinfo/GB-Eire',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/GB-Eire',
+   'DATA'),
+  ('pytz/zoneinfo/America/St_Kitts',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/St_Kitts',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Ashgabat',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Ashgabat',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Palmer',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Palmer',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Gaza',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Gaza',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Srednekolymsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Srednekolymsk',
+   'DATA'),
+  ('pytz/zoneinfo/America/Costa_Rica',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Costa_Rica',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/South',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/South',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-12',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-12',
+   'DATA'),
+  ('pytz/zoneinfo/America/Glace_Bay',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Glace_Bay',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Oral',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Oral',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-9',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-9',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Bangui',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Bangui',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Algiers',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Algiers',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Urumqi',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Urumqi',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Cairo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Cairo',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Chita',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Chita',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Samoa',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Samoa',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Tel_Aviv',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Tel_Aviv',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Maseru',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Maseru',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-14',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-14',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/UTC',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/UTC',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Kiritimati',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Kiritimati',
+   'DATA'),
+  ('pytz/zoneinfo/tzdata.zi',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/tzdata.zi',
+   'DATA'),
+  ('pytz/zoneinfo/America/Barbados',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Barbados',
+   'DATA'),
+  ('pytz/zoneinfo/US/Alaska',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Alaska',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Mariehamn',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Mariehamn',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-4',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-4',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Kashgar',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Kashgar',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/San_Marino',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/San_Marino',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Chongqing',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Chongqing',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Windhoek',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Windhoek',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Macau',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Macau',
+   'DATA'),
+  ('pytz/zoneinfo/America/Jujuy',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Jujuy',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Guernsey',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Guernsey',
+   'DATA'),
+  ('pytz/zoneinfo/America/North_Dakota/Beulah',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/North_Dakota/Beulah',
+   'DATA'),
+  ('pytz/zoneinfo/America/Guyana',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Guyana',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Salta',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Salta',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Bratislava',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Bratislava',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Vilnius',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Vilnius',
+   'DATA'),
+  ('pytz/zoneinfo/America/Atka',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Atka',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Rome',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Rome',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Minsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Minsk',
+   'DATA'),
+  ('pytz/zoneinfo/America/St_Vincent',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/St_Vincent',
+   'DATA'),
+  ('pytz/zoneinfo/Brazil/West',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Brazil/West',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-7',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-7',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Mogadishu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Mogadishu',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Kuala_Lumpur',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Kuala_Lumpur',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/North',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/North',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+5',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+5',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/West',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/West',
+   'DATA'),
+  ('pytz/zoneinfo/America/Havana',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Havana',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Aden',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Aden',
+   'DATA'),
+  ('pytz/zoneinfo/America/Maceio',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Maceio',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Aqtobe',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Aqtobe',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Lagos',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Lagos',
+   'DATA'),
+  ('pytz/zoneinfo/CET',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/CET',
+   'DATA'),
+  ('pytz/zoneinfo/Turkey',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Turkey',
+   'DATA'),
+  ('pytz/zoneinfo/EET',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/EET',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Manila',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Manila',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Ashkhabad',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Ashkhabad',
+   'DATA'),
+  ('pytz/zoneinfo/Brazil/DeNoronha',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Brazil/DeNoronha',
+   'DATA'),
+  ('pytz/zoneinfo/America/Swift_Current',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Swift_Current',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Qyzylorda',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Qyzylorda',
+   'DATA'),
+  ('pytz/zoneinfo/America/Belize',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Belize',
+   'DATA'),
+  ('pytz/zoneinfo/America/Campo_Grande',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Campo_Grande',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Reunion',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Reunion',
+   'DATA'),
+  ('pytz/zoneinfo/America/Creston',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Creston',
+   'DATA'),
+  ('pytz/zoneinfo/America/Boise',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Boise',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Kolkata',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Kolkata',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Kuching',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Kuching',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Asmara',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Asmara',
+   'DATA'),
+  ('pytz/zoneinfo/US/Central',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Central',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-8',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-8',
+   'DATA'),
+  ('pytz/zoneinfo/Greenwich',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Greenwich',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Blantyre',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Blantyre',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Istanbul',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Istanbul',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Mendoza',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Mendoza',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Malta',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Malta',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-6',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-6',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Anadyr',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Anadyr',
+   'DATA'),
+  ('pytz/zoneinfo/America/Inuvik',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Inuvik',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Sakhalin',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Sakhalin',
+   'DATA'),
+  ('pytz/zoneinfo/America/Ensenada',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Ensenada',
+   'DATA'),
+  ('pytz/zoneinfo/America/Cuiaba',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Cuiaba',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Qostanay',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Qostanay',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/South_Pole',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/South_Pole',
+   'DATA'),
+  ('pytz/zoneinfo/US/Michigan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Michigan',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Uzhgorod',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Uzhgorod',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Addis_Ababa',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Addis_Ababa',
+   'DATA'),
+  ('pytz/zoneinfo/America/Cayman',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Cayman',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Sao_Tome',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Sao_Tome',
+   'DATA'),
+  ('pytz/zoneinfo/America/Montserrat',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Montserrat',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Brazzaville',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Brazzaville',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Honolulu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Honolulu',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Johnston',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Johnston',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Kuwait',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Kuwait',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Baghdad',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Baghdad',
+   'DATA'),
+  ('pytz/zoneinfo/America/Chicago',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Chicago',
+   'DATA'),
+  ('pytz/zoneinfo/America/Tijuana',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Tijuana',
+   'DATA'),
+  ('pytz/zoneinfo/NZ-CHAT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/NZ-CHAT',
+   'DATA'),
+  ('pytz/zoneinfo/America/Ojinaga',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Ojinaga',
+   'DATA'),
+  ('pytz/zoneinfo/Mexico/General',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Mexico/General',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Madrid',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Madrid',
+   'DATA'),
+  ('pytz/zoneinfo/leapseconds',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/leapseconds',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+7',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+7',
+   'DATA'),
+  ('pytz/zoneinfo/America/Nassau',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Nassau',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Samara',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Samara',
+   'DATA'),
+  ('pytz/zoneinfo/GMT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/GMT',
+   'DATA'),
+  ('pytz/zoneinfo/America/Punta_Arenas',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Punta_Arenas',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Muscat',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Muscat',
+   'DATA'),
+  ('pytz/zoneinfo/America/Guadeloupe',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Guadeloupe',
+   'DATA'),
+  ('pytz/zoneinfo/Navajo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Navajo',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Dili',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Dili',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Bermuda',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Bermuda',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Cordoba',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Cordoba',
+   'DATA'),
+  ('pytz/zoneinfo/America/Guayaquil',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Guayaquil',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Ulaanbaatar',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Ulaanbaatar',
+   'DATA'),
+  ('pytz/zoneinfo/Hongkong',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Hongkong',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Kampala',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Kampala',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Vatican',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Vatican',
+   'DATA'),
+  ('pytz/zoneinfo/EST',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/EST',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Sofia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Sofia',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/San_Luis',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/San_Luis',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/Zulu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/Zulu',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Macquarie',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Macquarie',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Melbourne',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Melbourne',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Marquesas',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Marquesas',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Thimbu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Thimbu',
+   'DATA'),
+  ('pytz/zoneinfo/America/Curacao',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Curacao',
+   'DATA'),
+  ('pytz/zoneinfo/Factory',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Factory',
+   'DATA'),
+  ('pytz/zoneinfo/MST7MDT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/MST7MDT',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Omsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Omsk',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Sarajevo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Sarajevo',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indianapolis',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indianapolis',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Eucla',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Eucla',
+   'DATA'),
+  ('pytz/zoneinfo/US/Hawaii',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Hawaii',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Tasmania',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Tasmania',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Madeira',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Madeira',
+   'DATA'),
+  ('pytz/zoneinfo/America/Phoenix',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Phoenix',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Canary',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Canary',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Mawson',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Mawson',
+   'DATA'),
+  ('pytz/zoneinfo/America/Cambridge_Bay',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Cambridge_Bay',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Antananarivo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Antananarivo',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Johannesburg',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Johannesburg',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Khandyga',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Khandyga',
+   'DATA'),
+  ('pytz/zoneinfo/America/St_Johns',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/St_Johns',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Copenhagen',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Copenhagen',
+   'DATA'),
+  ('pytz/zoneinfo/America/Santo_Domingo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Santo_Domingo',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Damascus',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Damascus',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Kiev',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Kiev',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Luxembourg',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Luxembourg',
+   'DATA'),
+  ('pytz/zoneinfo/America/North_Dakota/New_Salem',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/North_Dakota/New_Salem',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Noumea',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Noumea',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Faeroe',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Faeroe',
+   'DATA'),
+  ('pytz/zoneinfo/America/Boa_Vista',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Boa_Vista',
+   'DATA'),
+  ('pytz/zoneinfo/GB',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/GB',
+   'DATA'),
+  ('pytz/zoneinfo/America/St_Barthelemy',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/St_Barthelemy',
+   'DATA'),
+  ('pytz/zoneinfo/US/Aleutian',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Aleutian',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Hovd',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Hovd',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Seoul',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Seoul',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Brunei',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Brunei',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Canberra',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Canberra',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/NSW',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/NSW',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Makassar',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Makassar',
+   'DATA'),
+  ('pytz/zoneinfo/America/Santarem',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Santarem',
+   'DATA'),
+  ('pytz/zoneinfo/America/Buenos_Aires',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Buenos_Aires',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Chungking',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Chungking',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Amsterdam',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Amsterdam',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Tirane',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Tirane',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Stockholm',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Stockholm',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Truk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Truk',
+   'DATA'),
+  ('pytz/zoneinfo/America/Cayenne',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Cayenne',
+   'DATA'),
+  ('pytz/zoneinfo/America/Antigua',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Antigua',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Chatham',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Chatham',
+   'DATA'),
+  ('pytz/zoneinfo/America/Port-au-Prince',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Port-au-Prince',
+   'DATA'),
+  ('pytz/zoneinfo/America/Port_of_Spain',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Port_of_Spain',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Adelaide',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Adelaide',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Ouagadougou',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Ouagadougou',
+   'DATA'),
+  ('pytz/zoneinfo/MET',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/MET',
+   'DATA'),
+  ('pytz/zoneinfo/Arctic/Longyearbyen',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Arctic/Longyearbyen',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Brussels',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Brussels',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Broken_Hill',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Broken_Hill',
+   'DATA'),
+  ('pytz/zoneinfo/America/New_York',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/New_York',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Dacca',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Dacca',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Pyongyang',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Pyongyang',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Efate',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Efate',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Chagos',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Chagos',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Thimphu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Thimphu',
+   'DATA'),
+  ('pytz/zoneinfo/US/Eastern',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Eastern',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Sydney',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Sydney',
+   'DATA'),
+  ('pytz/zoneinfo/Canada/Mountain',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/Mountain',
+   'DATA'),
+  ('pytz/zoneinfo/America/Rankin_Inlet',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Rankin_Inlet',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Moscow',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Moscow',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Brisbane',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Brisbane',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Dushanbe',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Dushanbe',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-2',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-2',
+   'DATA'),
+  ('pytz/zoneinfo/America/Matamoros',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Matamoros',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+2',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+2',
+   'DATA'),
+  ('pytz/zoneinfo/Zulu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Zulu',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Ljubljana',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Ljubljana',
+   'DATA'),
+  ('pytz/zoneinfo/America/Dawson_Creek',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Dawson_Creek',
+   'DATA'),
+  ('pytz/zoneinfo/America/Cancun',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Cancun',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+8',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+8',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Jayapura',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Jayapura',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Christmas',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Christmas',
+   'DATA'),
+  ('pytz/zoneinfo/America/Fort_Nelson',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Fort_Nelson',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT0',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT0',
+   'DATA'),
+  ('pytz/zoneinfo/Israel',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Israel',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Bujumbura',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Bujumbura',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Tomsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Tomsk',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/Universal',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/Universal',
+   'DATA'),
+  ('pytz/zoneinfo/US/Pacific',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Pacific',
+   'DATA'),
+  ('pytz/zoneinfo/Eire',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Eire',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/London',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/London',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Lusaka',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Lusaka',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Vienna',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Vienna',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Libreville',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Libreville',
+   'DATA'),
+  ('pytz/zoneinfo/CST6CDT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/CST6CDT',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Catamarca',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Catamarca',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Tucuman',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Tucuman',
+   'DATA'),
+  ('pytz/zoneinfo/America/Nipigon',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Nipigon',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Victoria',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Victoria',
+   'DATA'),
+  ('pytz/zoneinfo/GMT-0',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/GMT-0',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Ulyanovsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Ulyanovsk',
+   'DATA'),
+  ('pytz/zoneinfo/HST',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/HST',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Krasnoyarsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Krasnoyarsk',
+   'DATA'),
+  ('pytz/zoneinfo/America/Grenada',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Grenada',
+   'DATA'),
+  ('pytz/zoneinfo/America/Grand_Turk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Grand_Turk',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Cape_Verde',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Cape_Verde',
+   'DATA'),
+  ('pytz/zoneinfo/America/Toronto',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Toronto',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Riga',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Riga',
+   'DATA'),
+  ('pytz/zoneinfo/America/Paramaribo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Paramaribo',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Belgrade',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Belgrade',
+   'DATA'),
+  ('pytz/zoneinfo/America/Louisville',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Louisville',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Fakaofo',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Fakaofo',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Ust-Nera',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Ust-Nera',
+   'DATA'),
+  ('pytz/zoneinfo/US/Mountain',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Mountain',
+   'DATA'),
+  ('pytz/zoneinfo/UTC',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/UTC',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Mbabane',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Mbabane',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Bahrain',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Bahrain',
+   'DATA'),
+  ('pytz/zoneinfo/America/Coral_Harbour',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Coral_Harbour',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+10',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+10',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Saipan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Saipan',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Banjul',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Banjul',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Mahe',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Mahe',
+   'DATA'),
+  ('pytz/zoneinfo/Canada/Yukon',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Canada/Yukon',
+   'DATA'),
+  ('pytz/zoneinfo/America/Los_Angeles',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Los_Angeles',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Casey',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Casey',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Bougainville',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Bougainville',
+   'DATA'),
+  ('pytz/zoneinfo/America/Marigot',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Marigot',
+   'DATA'),
+  ('pytz/zoneinfo/America/Knox_IN',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Knox_IN',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Currie',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Currie',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-3',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-3',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+4',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+4',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Vostok',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Vostok',
+   'DATA'),
+  ('pytz/zoneinfo/America/Regina',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Regina',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Astrakhan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Astrakhan',
+   'DATA'),
+  ('pytz/zoneinfo/UCT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/UCT',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT-10',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT-10',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Nauru',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Nauru',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Douala',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Douala',
+   'DATA'),
+  ('pytz/zoneinfo/America/Godthab',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Godthab',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/Rio_Gallegos',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/Rio_Gallegos',
+   'DATA'),
+  ('pytz/zoneinfo/America/La_Paz',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/La_Paz',
+   'DATA'),
+  ('pytz/zoneinfo/America/Mexico_City',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Mexico_City',
+   'DATA'),
+  ('pytz/zoneinfo/iso3166.tab',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/iso3166.tab',
+   'DATA'),
+  ('pytz/zoneinfo/America/Denver',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Denver',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Midway',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Midway',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Ulan_Bator',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Ulan_Bator',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Faroe',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Faroe',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Skopje',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Skopje',
+   'DATA'),
+  ('pytz/zoneinfo/PRC',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/PRC',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Lindeman',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Lindeman',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Famagusta',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Famagusta',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Belfast',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Belfast',
+   'DATA'),
+  ('pytz/zoneinfo/Etc/GMT+12',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Etc/GMT+12',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Ndjamena',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Ndjamena',
+   'DATA'),
+  ('pytz/zoneinfo/America/St_Lucia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/St_Lucia',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Kyiv',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Kyiv',
+   'DATA'),
+  ('pytz/zoneinfo/EST5EDT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/EST5EDT',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/ComodRivadavia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/ComodRivadavia',
+   'DATA'),
+  ('pytz/zoneinfo/America/Cordoba',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Cordoba',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Tehran',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Tehran',
+   'DATA'),
+  ('pytz/zoneinfo/America/Argentina/San_Juan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Argentina/San_Juan',
+   'DATA'),
+  ('pytz/zoneinfo/America/Goose_Bay',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Goose_Bay',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Tahiti',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Tahiti',
+   'DATA'),
+  ('pytz/zoneinfo/America/Vancouver',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Vancouver',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Amman',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Amman',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Rarotonga',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Rarotonga',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Gambier',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Gambier',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indiana/Indianapolis',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indiana/Indianapolis',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Shanghai',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Shanghai',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Kirov',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Kirov',
+   'DATA'),
+  ('pytz/zoneinfo/America/Porto_Acre',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Porto_Acre',
+   'DATA'),
+  ('pytz/zoneinfo/America/Indiana/Knox',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Indiana/Knox',
+   'DATA'),
+  ('pytz/zoneinfo/America/Miquelon',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Miquelon',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Galapagos',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Galapagos',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Magadan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Magadan',
+   'DATA'),
+  ('pytz/zoneinfo/America/Recife',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Recife',
+   'DATA'),
+  ('pytz/zoneinfo/GMT0',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/GMT0',
+   'DATA'),
+  ('pytz/zoneinfo/Kwajalein',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Kwajalein',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Kathmandu',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Kathmandu',
+   'DATA'),
+  ('pytz/zoneinfo/America/Santa_Isabel',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Santa_Isabel',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Zagreb',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Zagreb',
+   'DATA'),
+  ('pytz/zoneinfo/Australia/Yancowinna',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Australia/Yancowinna',
+   'DATA'),
+  ('pytz/zoneinfo/America/Bahia_Banderas',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Bahia_Banderas',
+   'DATA'),
+  ('pytz/zoneinfo/America/Whitehorse',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Whitehorse',
+   'DATA'),
+  ('pytz/zoneinfo/America/Eirunepe',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Eirunepe',
+   'DATA'),
+  ('pytz/zoneinfo/America/Nuuk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Nuuk',
+   'DATA'),
+  ('pytz/zoneinfo/America/Puerto_Rico',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Puerto_Rico',
+   'DATA'),
+  ('pytz/zoneinfo/PST8PDT',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/PST8PDT',
+   'DATA'),
+  ('pytz/zoneinfo/Iran',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Iran',
+   'DATA'),
+  ('pytz/zoneinfo/America/Halifax',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Halifax',
+   'DATA'),
+  ('pytz/zoneinfo/America/Jamaica',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Jamaica',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Mauritius',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Mauritius',
+   'DATA'),
+  ('pytz/zoneinfo/America/Dawson',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Dawson',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Bishkek',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Bishkek',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Prague',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Prague',
+   'DATA'),
+  ('pytz/zoneinfo/America/Merida',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Merida',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Hong_Kong',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Hong_Kong',
+   'DATA'),
+  ('pytz/zoneinfo/America/Panama',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Panama',
+   'DATA'),
+  ('pytz/zoneinfo/US/Indiana-Starke',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/US/Indiana-Starke',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Berlin',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Berlin',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Bangkok',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Bangkok',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Stanley',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Stanley',
+   'DATA'),
+  ('pytz/zoneinfo/Japan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Japan',
+   'DATA'),
+  ('pytz/zoneinfo/Indian/Kerguelen',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Indian/Kerguelen',
+   'DATA'),
+  ('pytz/zoneinfo/Europe/Zaporozhye',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Europe/Zaporozhye',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Wake',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Wake',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Norfolk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Norfolk',
+   'DATA'),
+  ('pytz/zoneinfo/America/Asuncion',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Asuncion',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Nairobi',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Nairobi',
+   'DATA'),
+  ('pytz/zoneinfo/Atlantic/Reykjavik',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Atlantic/Reykjavik',
+   'DATA'),
+  ('pytz/zoneinfo/America/Metlakatla',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Metlakatla',
+   'DATA'),
+  ('pytz/zoneinfo/America/Managua',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Managua',
+   'DATA'),
+  ('pytz/zoneinfo/Pacific/Funafuti',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Pacific/Funafuti',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Yakutsk',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Yakutsk',
+   'DATA'),
+  ('pytz/zoneinfo/GMT+0',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/GMT+0',
+   'DATA'),
+  ('pytz/zoneinfo/America/Atikokan',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Atikokan',
+   'DATA'),
+  ('pytz/zoneinfo/Antarctica/Troll',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Antarctica/Troll',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Lome',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Lome',
+   'DATA'),
+  ('pytz/zoneinfo/Asia/Samarkand',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Asia/Samarkand',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Gaborone',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Gaborone',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Kigali',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Kigali',
+   'DATA'),
+  ('pytz/zoneinfo/America/Bahia',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/America/Bahia',
+   'DATA'),
+  ('pytz/zoneinfo/Africa/Tunis',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/pytz/zoneinfo/Africa/Tunis',
+   'DATA'),
+  ('cryptography-45.0.5.dist-info/METADATA',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography-45.0.5.dist-info/METADATA',
+   'DATA'),
+  ('cryptography-45.0.5.dist-info/licenses/LICENSE.APACHE',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography-45.0.5.dist-info/licenses/LICENSE.APACHE',
+   'DATA'),
+  ('cryptography-45.0.5.dist-info/licenses/LICENSE.BSD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography-45.0.5.dist-info/licenses/LICENSE.BSD',
+   'DATA'),
+  ('cryptography-45.0.5.dist-info/INSTALLER',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography-45.0.5.dist-info/INSTALLER',
+   'DATA'),
+  ('cryptography-45.0.5.dist-info/WHEEL',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography-45.0.5.dist-info/WHEEL',
+   'DATA'),
+  ('cryptography-45.0.5.dist-info/RECORD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography-45.0.5.dist-info/RECORD',
+   'DATA'),
+  ('cryptography-45.0.5.dist-info/licenses/LICENSE',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography-45.0.5.dist-info/licenses/LICENSE',
+   'DATA'),
+  ('cryptography-45.0.5.dist-info/REQUESTED',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/cryptography-45.0.5.dist-info/REQUESTED',
+   'DATA'),
+  ('certifi/cacert.pem',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/certifi/cacert.pem',
+   'DATA'),
+  ('certifi/py.typed',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/certifi/py.typed',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
+   'DATA'),
+  ('setuptools/_vendor/jaraco/text/Lorem ipsum.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/setuptools/_vendor/jaraco/text/Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('click-8.2.1.dist-info/INSTALLER',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/click-8.2.1.dist-info/INSTALLER',
+   'DATA'),
+  ('numpy-2.3.1.dist-info/RECORD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy-2.3.1.dist-info/RECORD',
+   'DATA'),
+  ('click-8.2.1.dist-info/REQUESTED',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/click-8.2.1.dist-info/REQUESTED',
+   'DATA'),
+  ('flask-3.1.1.dist-info/INSTALLER',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask-3.1.1.dist-info/INSTALLER',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/INSTALLER',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/werkzeug-3.1.3.dist-info/INSTALLER',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/REQUESTED',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/werkzeug-3.1.3.dist-info/REQUESTED',
+   'DATA'),
+  ('click-8.2.1.dist-info/METADATA',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/click-8.2.1.dist-info/METADATA',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/top_level.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/MarkupSafe-3.0.2.dist-info/top_level.txt',
+   'DATA'),
+  ('click-8.2.1.dist-info/WHEEL',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/click-8.2.1.dist-info/WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/RECORD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/RECORD',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/METADATA',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/METADATA',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/RECORD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/MarkupSafe-3.0.2.dist-info/RECORD',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/METADATA',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/werkzeug-3.1.3.dist-info/METADATA',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/WHEEL',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/MarkupSafe-3.0.2.dist-info/WHEEL',
+   'DATA'),
+  ('flask-3.1.1.dist-info/licenses/LICENSE.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask-3.1.1.dist-info/licenses/LICENSE.txt',
+   'DATA'),
+  ('flask-3.1.1.dist-info/REQUESTED',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask-3.1.1.dist-info/REQUESTED',
+   'DATA'),
+  ('numpy-2.3.1.dist-info/entry_points.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy-2.3.1.dist-info/entry_points.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/LICENSE.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/MarkupSafe-3.0.2.dist-info/LICENSE.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/INSTALLER',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/MarkupSafe-3.0.2.dist-info/INSTALLER',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/LICENSE.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt',
+   'DATA'),
+  ('flask-3.1.1.dist-info/WHEEL',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask-3.1.1.dist-info/WHEEL',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/METADATA',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/MarkupSafe-3.0.2.dist-info/METADATA',
+   'DATA'),
+  ('flask-3.1.1.dist-info/RECORD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask-3.1.1.dist-info/RECORD',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/REQUESTED',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/REQUESTED',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/WHEEL',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/werkzeug-3.1.3.dist-info/WHEEL',
+   'DATA'),
+  ('flask-3.1.1.dist-info/METADATA',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask-3.1.1.dist-info/METADATA',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/RECORD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/werkzeug-3.1.3.dist-info/RECORD',
+   'DATA'),
+  ('numpy-2.3.1.dist-info/WHEEL',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy-2.3.1.dist-info/WHEEL',
+   'DATA'),
+  ('numpy-2.3.1.dist-info/REQUESTED',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy-2.3.1.dist-info/REQUESTED',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/LICENSE.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/werkzeug-3.1.3.dist-info/LICENSE.txt',
+   'DATA'),
+  ('flask-3.1.1.dist-info/entry_points.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/flask-3.1.1.dist-info/entry_points.txt',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/INSTALLER',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/INSTALLER',
+   'DATA'),
+  ('numpy-2.3.1.dist-info/INSTALLER',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy-2.3.1.dist-info/INSTALLER',
+   'DATA'),
+  ('click-8.2.1.dist-info/licenses/LICENSE.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/click-8.2.1.dist-info/licenses/LICENSE.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/REQUESTED',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/MarkupSafe-3.0.2.dist-info/REQUESTED',
+   'DATA'),
+  ('click-8.2.1.dist-info/RECORD',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/click-8.2.1.dist-info/RECORD',
+   'DATA'),
+  ('numpy-2.3.1.dist-info/LICENSE.txt',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy-2.3.1.dist-info/LICENSE.txt',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/WHEEL',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/WHEEL',
+   'DATA'),
+  ('numpy-2.3.1.dist-info/METADATA',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/venv/lib/python3.12/site-packages/numpy-2.3.1.dist-info/METADATA',
+   'DATA'),
+  ('base_library.zip',
+   '/home/brmed/Área de '
+   'trabalho/rpa-relatorio-atendimentos-main/build/desktop_app/base_library.zip',
+   'DATA'),
+  ('libscipy_openblas64_-56d6093b.so',
+   'numpy.libs/libscipy_openblas64_-56d6093b.so',
+   'SYMLINK'),
+  ('libquadmath-96973f99-934c22de.so.0.0.0',
+   'numpy.libs/libquadmath-96973f99-934c22de.so.0.0.0',
+   'SYMLINK'),
+  ('libgfortran-040039e1-0352e75f.so.5.0.0',
+   'numpy.libs/libgfortran-040039e1-0352e75f.so.5.0.0',
+   'SYMLINK')],
+ 'libpython3.12.so',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

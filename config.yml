@@ -1,0 +1,7 @@
+tunnel: b28bfb4d-7f89-4fed-af9b-4266efe5b1ba
+credentials-file: /home/brmed/.cloudflared/b28bfb4d-7f89-4fed-af9b-4266efe5b1ba.json
+
+ingress:
+  - hostname: b28bfb4d-7f89-4fed-af9b-4266efe5b1ba.cfargotunnel.com
+    service: http://localhost:8000
+  - service: http_status:404

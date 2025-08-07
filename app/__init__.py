@@ -2,15 +2,20 @@ import os
 from flask import Flask
 from dotenv import load_dotenv
 from .auth import oauth
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 
 def create_app():
-    load_dotenv()
-
+    load_dotenv() # Carrega variáveis de ambiente do .env para desenvolvimento local
     app = Flask(__name__)
+
+    # Corrige o problema de sessão/CSRF por trás do proxy do Fly.io
+    app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
     
     app.debug = os.getenv("FLASK_DEBUG", "false").lower() == "true"
 
+    # Em produção (Fly.io), a SECRET_KEY virá das variáveis de ambiente/secrets da plataforma.
+    # Para desenvolvimento local, ela virá do seu arquivo .env.
     app.secret_key = os.getenv("SECRET_KEY")
 
     # configura OAuth Google

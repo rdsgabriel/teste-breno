@@ -1,6 +1,7 @@
 
 import pandas as pd
 import json
+import gc # Importa o coletor de lixo
 
 # === CONFIGURAÇÕES GERAIS ===
 POSITION_JSON = "app/data/position_job.json"
@@ -12,23 +13,11 @@ DURATION_JSON = "app/data/report_time_medical.json"
 CARGA_HORARIA_JSON = "app/data/workload_per_exam.json"
 
 def tables_dinamic(report_medical_care,report_medical_care_times):
-
-    ## === CARREGAMENTO DE DADOS FINANCEIROS ===
-    # with open(FINANCIAL_JSON, 'r', encoding='utf-8') as f:
-    #     financeiro_bruto = json.load(f)
-    # flattened = pd.DataFrame([item for sublist in financeiro_bruto for item in sublist])
-
-    # # === CARREGAMENTO DE TEMPOS DE EXAMES ===
-    # with open(DURATION_JSON, 'r', encoding='utf-8') as f:
-    #     tempos_brutos = json.load(f)
-    #df_tempos_exames = pd.DataFrame([item for sublist in tempos_brutos for item in sublist])
-
-    
     try:
-
-        flattened = [item for sub in report_medical_care for item in sub]
-
-        df = pd.DataFrame(flattened)
+        # Processamento de report_medical_care (dados financeiros)
+        # Constrói o DataFrame a partir do gerador
+        df = pd.DataFrame(item for sublist in report_medical_care for item in sublist)
+        gc.collect() # Força a coleta de lixo
         # 2) Verifica colunas necessárias
         required_columns = {"preco_venda", "data_atendimento", "filial_nome", "pedido_exame_id", "subexame_nome"}
         missing_columns = required_columns - set(df.columns)
@@ -87,7 +76,9 @@ def tables_dinamic(report_medical_care,report_medical_care_times):
         #------Relatório Produtividade-------
 
         # === CARREGAMENTO DE TEMPOS DE EXAMES ===
-        df_tempos_exames = pd.DataFrame([item for sublist in report_medical_care_times for item in sublist])
+        # Processamento de report_medical_care_times (tempos de exames)
+        df_tempos_exames = pd.DataFrame(item for sublist in report_medical_care_times for item in sublist)
+        gc.collect()
 
                 # === CARREGAMENTO DE POSIÇÕES DE TRABALHO ===
         with open(CARGA_HORARIA_JSON, 'r', encoding='utf-8') as f:

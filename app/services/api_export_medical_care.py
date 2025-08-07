@@ -46,8 +46,7 @@ def get_report(session: requests.Session, params: dict, clinic_list):
     #print(f"[get_report] concluído com sucesso para: {params!r}")
     return data
 
-def bucket_calls_sync_medical(params_list,clinic_list, max_workers=5):
-    results = []
+def bucket_calls_sync_medical(params_list,clinic_list, max_workers=10):
     # Início da medição de tempo
     t_start = time.perf_counter()
 
@@ -68,7 +67,7 @@ def bucket_calls_sync_medical(params_list,clinic_list, max_workers=5):
             try:
                 report = futuro.result()
                 if report:
-                    results.append(report)
+                    yield report # Usa yield em vez de results.append()
                 # se report == [], já foi logado dentro de get_report
             except Exception as e:
                 print(f"[bucket_calls] exceção ao processar {param!r}: {e}")
@@ -78,10 +77,3 @@ def bucket_calls_sync_medical(params_list,clinic_list, max_workers=5):
     print(f"[bucket_calls] duração total: {(t_end - t_start):.2f} segundos")
 
     session.close()
-    return results
-    
-
-
-    # with open(JSON_FILE, "w", encoding="utf-8") as f:
-    #     json.dump(json_report, f/, ensure_ascii=False, indent=2)
-

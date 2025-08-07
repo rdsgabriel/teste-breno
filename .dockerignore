@@ -1,0 +1,66 @@
+# flyctl launch added from .gitignore
+# === Python ===
+**/__pycache__
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+**/*.pyc
+**/*.py.class
+**/*.egg-info
+**/*.egg
+**/*.log
+
+# Arquivos de ambiente virtual
+**/venv
+**/.env
+**/.venv
+**/ENV
+**/env.bak
+**/*.env
+**/pip-log.txt
+
+# === Flask ===
+**/instance
+**/*.db
+**/*.sqlite3
+**/*.db-journal
+
+# Flask cache e debug
+**/*.pid
+**/*.swp
+**/*.bak
+**/*.tmp
+**/debug.log
+**/flask_session
+**/cache
+**/*.log
+
+# === Jupyter (se usar para análise)
+**/.ipynb_checkpoints
+**/*.ipynb
+
+# === Editor (VSCode, PyCharm etc.)
+**/.vscode
+**/.idea
+**/*.sublime-project
+**/*.sublime-workspace
+
+# === Sistema operacional ===
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# === Frontend (build React/Vue, caso exista) ===
+**/frontend/node_modules
+**/frontend/dist
+**/frontend/build
+
+# === Uploads, relatórios e arquivos gerados ===
+**/*.xlsx
+**/*.pdf
+**/*.zip
+**/*.tar.gz
+**/*.csv
+**/reports
+**/downloads
+fly.toml
